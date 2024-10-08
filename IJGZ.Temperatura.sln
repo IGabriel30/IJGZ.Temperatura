@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IJGZ.Temperatura", "IJGZ.Temperatura\IJGZ.Temperatura.csproj", "{DE2AAFE1-77F9-4E14-99DC-386308D794C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IJGZ.Temperatura.UnitTestMSTest", "IJGZ.Temperatura.UnitTestMSTest\IJGZ.Temperatura.UnitTestMSTest.csproj", "{D99F8BCD-99A3-48F9-A962-BB1A39107649}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DE2AAFE1-77F9-4E14-99DC-386308D794C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE2AAFE1-77F9-4E14-99DC-386308D794C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE2AAFE1-77F9-4E14-99DC-386308D794C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D99F8BCD-99A3-48F9-A962-BB1A39107649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D99F8BCD-99A3-48F9-A962-BB1A39107649}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D99F8BCD-99A3-48F9-A962-BB1A39107649}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D99F8BCD-99A3-48F9-A962-BB1A39107649}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
