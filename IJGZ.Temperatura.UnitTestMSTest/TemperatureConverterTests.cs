@@ -18,10 +18,10 @@ namespace IJGZ.Temperatura.Tests
             TemperatureConverter convertidor = new TemperatureConverter();
 
             // Act
-            double result = convertidor.CelsiusToFahrenheit(0); 
+            double result = convertidor.CelsiusToFahrenheit(100); 
 
             // Assert
-            Assert.AreEqual(32, result, 0.001);
+            Assert.AreEqual(212, result, 0.001);
         }
 
         [TestMethod()]
@@ -31,10 +31,10 @@ namespace IJGZ.Temperatura.Tests
             TemperatureConverter convertidor = new TemperatureConverter();
 
             // Act
-            double result = convertidor.FahrenheitToCelsius(32);
+            double result = convertidor.FahrenheitToCelsius(212);
 
             // Assert
-            Assert.AreEqual(0, result, 0.001);
+            Assert.AreEqual(100, result, 0.001);
         }
     }
 }
